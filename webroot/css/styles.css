@@ -28,6 +28,7 @@ ul {
 }
 
 .main-container {
+  height: auto;
   width: 90%;
   padding: 0 5%;
 }
