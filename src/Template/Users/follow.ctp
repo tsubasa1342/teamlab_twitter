@@ -1,5 +1,5 @@
 <?php
-$this->assign('title', 'フォロー一覧');
+$this->assign('title', 'フォロー者一覧');
 ?>
 <div class="main-container">
   <?php if ($isWhich == 'follow'): ?>
