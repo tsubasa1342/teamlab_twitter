@@ -1,0 +1,599 @@
+body {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+h2 {
+  width: 800px;
+  height: 40px;
+  line-height: 40px;
+  margin-top: 50px;
+  font-weight: normal;
+  padding-left: 10px;
+  margin-bottom: 0;
+}
+ul {
+  padding-left: 0;
+}
+
+.main-container {
+  width: 90%;
+  padding: 0 5%;
+}
+
+.index-message {
+  height: 40px;
+  line-height: 40px;
+  float:right;
+}
+
+.container {
+  background-color: white;
+  width: 100%;
+  padding: 0;
+  margin: 0 auto;
+}
+
+
+header {
+  height: 50px;
+  width: 100%;
+  background-color: #99ccde;
+
+}
+
+.header-logo img{
+  height: 40px;
+  width: 40px;
+  padding: 5px;
+  margin-left: 20px;
+  float: left;
+}
+
+.header-list {
+  background-color: white;
+  height: 40px;
+  width: 400px;
+  padding: 0 0;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  float: right;
+}
+
+.header-list li {
+  height: 40px;
+  line-height:40px;
+  width: 100px;
+  text-align: center;
+  margin: 0 15px;
+  float: left;
+}
+
+
+
+.message {
+  text-align: center;
+  padding: 5px;
+  color: red;
+  background: #FFFF66;
+}
+
+.hidden {
+  display: none;
+}
+
+.fs12 {
+  font-size: 12px;
+}
+
+.login_check_container {
+  margin-top: 40px;
+}
+
+.message-container {
+  height: 100px;
+
+}
+
+.first-message {
+  float:left;
+}
+
+.confirm-message {
+  height: 100px;
+  line-height: 100px;
+  margin: 0 20px;
+  float: right;
+}
+
+.clear {
+  clear: both;
+}
+
+.form-container {
+  padding-left: 100px;
+}
+
+#form_check, #name_check_p, #user_name_check_p, #password_check_p, #password_confirm_check_p, #email_adress_check_p {
+  color: red;
+  width: 400px;
+  display: none;
+  margin: 0;
+}
+
+.input {
+  width: 500px;
+  text-align: right;
+
+}
+
+#body {
+  width: 800px;
+  padding: 0.8em;
+  margin: 10px;
+  outline: none;
+  border: 1px solid #DDD;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  font-size: 12px;
+}
+
+input[type="text"] {
+  width: 300px;
+  padding: 0.8em;
+  margin: 10px;
+  outline: none;
+  border: 1px solid #DDD;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  font-size: 12px;
+}
+
+input[type="text"]:focus,
+texture:focus {
+    box-shadow: 0 0 7px #3498db;
+    border: 1px solid #3498db;
+}
+
+input[type="password"] {
+  width: 300px;
+  padding: 0.8em;
+  margin: 10px;
+  outline: none;
+  border: 1px solid #DDD;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  font-size: 12px;
+}
+
+input[type="password"]:focus,
+texture:focus {
+    box-shadow: 0 0 7px #3498db;
+    border: 1px solid #3498db;
+}
+
+.checkbox-container {
+  height: 40px;
+  padding-left: 30px;
+}
+
+input[type="checkbox"] {
+  height: 30px;
+  width: 30px;
+}
+
+
+
+.checkbox-message {
+  height: 40px;
+  margin: 0;
+  line-height: 40px;
+  float: right;
+  padding-right: 700px;
+}
+
+.form-container button {
+  margin: 30px auto;
+  margin-left: 300px;
+}
+
+.login-form-container {
+  float: left;
+}
+
+.login-sidebar {
+  height: 500px;
+  width: 400px;
+  float: right;
+  text-align: center;
+}
+
+.login-sidebar p {
+  margin-bottom: 30px;
+}
+
+.login-sidebar a {
+  color: white;
+  background-color: #006699;
+  border: solid;
+  border-radius: 10px 10px;
+  padding: 5px 20px;
+}
+
+.login-form-container button {
+  margin: 30px 350px 30px 250px;
+}
+
+
+
+.error-message {
+  font-size: 12px;
+  padding-left: 140px;
+  text-align: left;
+}
+
+.error-message ul {
+  padding: 0;
+}
+.top-container {
+  margin-top: 50px;
+}
+
+.top-container-link {
+  height: 100px;
+  margin-top: 80px;
+  text-align: center;
+}
+
+.top-container-link a {
+  color: black;
+  border: solid black;
+  height: 50px;
+  width: 100px;
+  padding: 10px 30px;
+}
+.tweet-form {
+  display: inline-block;
+  width: 832px;
+  margin-right: 0;
+}
+.tweet-form ul {
+  margin: 0;
+  float: left;
+}
+
+.tweet-form button {
+  width: 150px;
+  margin: 0;
+  float: right;
+}
+
+.tweet-form .error-message {
+  display: none;
+}
+
+
+
+
+
+.index-button {
+  float:right;
+  margin-right: 0;
+  margin-left: 750px;
+}
+
+.index-tweet-body {
+  float: left;
+}
+
+.tweet-delete {
+  float:right;
+  color: silver;
+
+}
+
+.tweet-delete i {
+  color: gray;
+
+}
+
+.index > ul {
+
+  float: left;
+  width: 60%;
+}
+
+.not-found {
+  color: red;
+}
+
+.auth-data {
+  background-color: #CCFFFF;
+  float: right;
+  width: 35%;
+  margin-left: 5%;
+}
+
+.auth-data ul{
+  text-align: center;
+}
+
+.auth-data li {
+  float: left;
+  text-align: center;
+  padding-left: 20px;
+  margin: 20px auto;
+}
+
+.paginator {
+  display: flex;
+}
+
+.pagination {
+  height: 52px;
+  width:400px;
+  margin: 0 auto;
+  text-align: center;
+  display: inline-flex;
+  justify-content: center;
+}
+
+.pagination li {
+  padding: 3px 10px;
+  margin: 10px ;
+  border: solid #C0C0C0;
+}
+
+.search-container {
+  width: 100%;
+  padding-left: 40px;
+}
+
+.search-container h2 {
+  padding-left: 0;
+  margin-bottom: 40px;
+}
+
+
+#search-first-p{
+    margin-bottom: 40px;
+}
+
+.search-container p {
+  margin: 0;
+}
+
+.search-form-container form {
+  height: 50px;
+  line-height: 50px;
+}
+
+.search-container  {
+  width: auto;
+}
+
+.search-container .input {
+  margin-left: 0;
+  text-align: left;
+}
+
+.search-form-container button {
+  margin-top: 15px;
+}
+
+.search-container input {
+  margin-left: 0;
+}
+
+.search-container button {
+  display: inline-block;
+}
+
+.search-form {
+  float: left;
+}
+
+.search-button {
+  margin-top: 20px;
+}
+
+.result-list {
+  width: 80%;
+  padding:20px 80px 20px 90px;
+  margin: auto;
+  border-top: dashed #C0C0C0;
+}
+
+.result-user-name a {
+  color: #008BBB;
+  float: left;
+  margin-right: 10px
+}
+
+.result-name {
+  float: left;
+}
+
+
+
+.result-list  button {
+  float: right;
+  border-radius: 3px 3px;
+}
+
+.follow-p {
+  padding-left: 50px;
+  margin-top: 100px;
+  margin-bottom: 0;
+}
+
+.follow-container {
+  display: flex;
+  width: 100%;
+}
+
+
+.follow-contents {
+  width: 65%;
+}
+
+.follow-list {
+  width: 80%;
+  padding:20px 80px 20px 90px;
+  margin: auto;
+  border-top: dashed #C0C0C0;
+}
+
+.follow-user-name a {
+  color: #008BBB;
+  float: left;
+  margin-right: 10px
+}
+
+.follow-name {
+  float: left;
+}
+
+.follow-contents li {
+  border-top: solid 1px silver;
+}
+
+.follow-contents li:nth-child(2n-1) {
+  background-color: #EEEEEE;
+}
+
+.follow-icon {
+  width: 30px;
+  height: 20px;
+  line-height: 20px;
+  float:right;
+  border: solid gray;
+  border-radius: 2px 2px;
+  text-align: center;
+}
+
+.follower-icon button {
+  width: 30px;
+  height: 20px;
+  line-height: 17px;
+  padding: 0;
+  float:right;
+  color: gray;
+  border: solid gray;
+  border-radius: 2px 2px;
+  text-align: center;
+}
+
+.follow-icon a {
+  background-color: #EEEEEE;
+  display: block;
+}
+
+.follower-icon a {
+  background-color: #EEEEEE;
+  display: block;
+}
+
+.follow-icon i {
+  color: gray;
+  border-radius: 2px 2px;
+}
+
+.follower-icon i {
+  width: 12px;
+  height: 15px;
+  line-height: 15px;
+  font-size: 12px;
+  color: gray;
+  border-radius: 2px 2px;
+}
+
+.auth-data-follow {
+  background-color: #CCFFFF;
+  color: #008BBB;
+  width: 25%;
+  margin-left: auto;
+}
+
+.auth-data-follow p {
+  height: 30px;
+  line-height: 30px;
+  padding-left: 20px;
+
+}
+
+.follow-data {
+  color: black;
+}
+
+.auth-data-follow ul {
+  padding-left: 20px;
+  margin: 0;
+  display: flex;
+}
+
+.auth-data-follow li {
+  color: #008BBB;
+  width: 60px;
+  padding: 5px 10px 0 0;
+  margin: 0;
+}
+
+.auth-data-follow a:visited {
+  color: #008BBB;
+}
+
+.tweet-count {
+  position: relative;
+}
+
+.tweet-link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-indent:-999px;
+}
+
+.tweet-count ul {
+  display: flex;
+}
+
+.tweet-count li {
+  justify-content: space-between;
+}
+
+.tweet-count li:nth-child(2) {
+  text-align: right;
+}
+
+
+
+
+footer {
+  background-color: #99ccde;
+  height: 50px;
+  padding: 0;
+  margin-top: 50px;
+  line-height: 50px;
+}
+
+
+.footer-message {
+  text-align: center;
+}
