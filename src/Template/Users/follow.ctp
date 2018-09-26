@@ -116,7 +116,7 @@ $this->assign('title', 'フォロー者一覧');
             ?>
             <?php if ($count == 0): ?>
               <div class="follower-icon fs12">
-                <?= $this->Form->create(null, ['url' => ['controller'=>'Follows', 'action'=>'follow'], 'onsubmit' => 'return confirm("Sure you want to delete this tweet? There is NO undo!");']); ?>
+                <?= $this->Form->create(null, ['url' => ['controller'=>'Follows', 'action'=>'follow']]); ?>
                 <?= $this->Form->hidden('user_id', ['value'=>$auth['id']]); ?>
                 <?= $this->Form->hidden('name', ['value'=>$auth['name']]); ?>
                 <?= $this->Form->hidden('user_name', ['value'=>$auth['user_name']]); ?>
